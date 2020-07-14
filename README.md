@@ -1,24 +1,4 @@
-# README
+# Blog
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+hi! Este es un proyecto sobre la creacion de un blog, este mismo, tendra la finalidad de ser usado como repositorio de prueba y experimentacion.
+El "blog" tratara sobre temas de importancia politica, politicas publicas y opiniones
