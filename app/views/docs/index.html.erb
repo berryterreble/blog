@@ -1,5 +1,4 @@
 <p id="notice"><%= notice %></p>
-
 <h1>Docs</h1>
 
 <table>
@@ -20,9 +19,9 @@
         <td><%= doc.resumen %></td>
         <td><%= doc.texto %></td>
         <td><%= doc.fecha %></td>
-        <td><%= link_to 'Show', doc %></td>
-        <td><%= link_to 'Edit', edit_doc_path(doc) %></td>
-        <td><%= link_to 'Destroy', doc, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= button_to 'Show', doc, :method => :get %></td>
+        <td><%= button_to 'Edit', edit_doc_path(doc), :method => :get%></td>
+        <td><%= button_to 'Destroy', doc, method: :delete %></td>
       </tr>
     <% end %>
   </tbody>
